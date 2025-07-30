@@ -209,9 +209,10 @@ header nav button {
 
 .SeccBajaDiv {
 	display: flex;
-	width: 50%;
+	width: 70%;
 	height: 40rem;
 	justify-content: space-around;
+	gap: 20px;
 }
 
 .SeccBaja h2 {
@@ -258,7 +259,7 @@ header nav button {
 	font-size: 2rem;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: start;
 	width: 100%;
 	color: #000;
 }
@@ -342,7 +343,7 @@ footer {
 	width: 100%;
 	height: 5rem;
 	justify-content: space-around;
-	font-size: 20px;
+	font-size: 15px;
 }
 footer span {
 	color: #fc11b6;
@@ -352,5 +353,15 @@ footer div {
 	display: flex;
 	justify-content: space-around;
 	width: 10%;
-	font-size: 2rem;
+	font-size: 20px;
+}
+
+@media (max-width: 1279px) {
+	header {
+		padding: 0px 5rem;
+	}
+
+	.SeccBajaDiv {
+		width: 70%;
+	}
 }
