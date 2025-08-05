@@ -118,7 +118,7 @@ header nav button {
 }
 
 .button1 {
-	width: 14em;
+	width: 14rem;
 	height: 3rem;
 	background-color: #fff;
 	color: #fc11b6;
@@ -168,7 +168,6 @@ header nav button {
 
 .SeccSecu div img {
 	height: 20rem;
-	width: 15;
 }
 
 .SeccSecu aside h3, h4 {
@@ -355,13 +354,154 @@ footer div {
 	width: 10%;
 	font-size: 20px;
 }
-
+/* aqui inicia el media query */
 @media (max-width: 1279px) {
 	header {
 		padding: 0px 5rem;
 	}
 
+	.SeccPrin {
+		height: auto;
+	}
+
 	.SeccBajaDiv {
 		width: 70%;
+		margin-bottom: 20px;
 	}
+
+	.SeccSecu div {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.div2 {
+		width: 50%;
+		height: 50rem;
+	}
+
+	.div2 img {
+		width: 13rem;
+		height: 25rem;
+		margin-left: 6rem;
+		margin-top: 3rem;
+	}
+
+
+	.div1 {
+		width: 50%;
+		height: 50rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.div1 h1 {
+		font-size: 5rem;
+		margin-bottom: 2rem;
+	}
+
+	.div1 p {
+		font-size: 15px;
+		margin-left: 20px;
+		margin-bottom: 2rem;
+	}
+
+	.buttons {
+		width: 26rem;
+		height: 4rem;
+		margin-left: 5px;
+	}
+
+	.button1 {
+		width: 12rem;
+		height: 3rem;
+		font-size: 16px;
+	}
+
+	.button2 {
+		width: 12rem;
+		height: 3rem;
+		font-size: 16px;
+	}
+
+	.SeccBajaDiv {
+		display: flex;
+		flex-wrap: wrap;
+		height: auto;
+	}
+
+	.SeccBaja {
+		height: auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	header {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	header  img {
+		width: 20%;
+		height: 20%;
+	}
+
+	header nav {
+		width: 60%;
+		display: flex;
+		align-items: center;
+		height: 4rem;
+	}
+
+	header nav a {
+		font-size: 15px;
+	}
+
+	.acolor {
+		font-size: 15px;
+	}
+
+	header nav button {
+		width: 8rem;
+		height: 2.5rem;
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 920px) {
+
+	.SeccSecu div img {
+		height: 15rem;
+		width: 25rem;
+	}
+
+	.buttons {
+		width: 70%;
+		height: 3rem;
+	}
+
+	.button1 {
+		width: 50%;
+		height: 2rem;
+		font-size: 10px;
+		margin: 5px;
+	}
+
+	.button2 {
+		width: 50%;
+		height: 2rem;
+		font-size: 10px;
+		margin: 5px;
+	}
+}
+
+@media (max-width: 768px) {
+
+
+	
 }
